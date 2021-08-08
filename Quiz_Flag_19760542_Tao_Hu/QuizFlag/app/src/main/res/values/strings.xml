@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quiz Flag</string>
+    <string name="startingPoint">Starting Point: %1$d</string>
+    <string name="winningPoint">Winning Point: %1$d</string>
+    <string name="start">Start</string>
+    <string name="currentPoint">Current Point: %1$d</string>
+    <string name="goBack">Back</string>
+    <string name="questionName">Q%1$d</string>
+    <string name="questionNameSpecial">Q%1$d (Special)</string>
+    <string name="questionPoints">Point: %1$d</string>
+    <string name="questionPenalty">Penalty: %1$d</string>
+    <string name="questionSetScore">%1$d/%2$d</string>
+    <string name="answerCorrect">Correct!</string>
+    <string name="answerIncorrect">Incorrect!</string>
+    <string name="answerCorrectSpecial">Correct!\nYou have answered a special question!</string>
+    <string name="specialQuestionPointIncrease">All questions of this selected flag had points increased by %1$d</string>
+    <string name="horizontalViewWarning">Cannot change columns!\nIt will mess up!</string>
+    <string name="loseMessage">You have lost the game!</string>
+    <string name="winMessage">You have won the game!</string>
+    <string name="finishGame">End Game</string>
+</resources>

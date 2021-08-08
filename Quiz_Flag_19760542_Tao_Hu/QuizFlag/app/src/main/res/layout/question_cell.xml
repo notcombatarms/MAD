@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:background="@drawable/square_border_filled_light_blue"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/questionButton"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:alpha="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/questionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="@+id/questionButton"
+        app:layout_constraintLeft_toLeftOf="@+id/questionButton"
+        app:layout_constraintRight_toRightOf="@+id/questionButton"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/questionPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/questionName"
+        app:layout_constraintLeft_toLeftOf="@+id/questionButton"
+        app:layout_constraintRight_toRightOf="@+id/questionButton"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/questionPenalty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/questionPoints"
+        app:layout_constraintLeft_toLeftOf="@+id/questionButton"
+        app:layout_constraintRight_toRightOf="@+id/questionButton"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="32dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
